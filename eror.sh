@@ -24,7 +24,10 @@ fi
                                                                   >
 if [ $pil = 2  ]
 then
+figlet "TUNGGU"|lolcat
+echo "TUNGGU.."|lolcat
 echo "TUNGGU SEBENTAR"|lolcat
+echo "[•]BERHASIL.."|lolcat
 clear
 fi
 

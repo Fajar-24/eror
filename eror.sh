@@ -20,7 +20,7 @@ pkg install cowsay
 pkg install figlet
 pip2 install lolcat
 clear
-fi
+
                                                                   >
 if [ $pil = 2  ]
 then
@@ -29,7 +29,7 @@ echo "TUNGGU.."|lolcat
 echo "TUNGGU SEBENTAR"|lolcat
 echo "[•]BERHASIL.."|lolcat
 clear
-fi
+
 
 figlet "LOGIN"|lolcat
 echo "SILAKAN LOGIN TOOLS DULU"|lolcat

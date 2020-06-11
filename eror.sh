@@ -20,17 +20,14 @@ pkg install cowsay
 pkg install figlet
 pip2 install lolcat
 clear
-
-                                                                  >
-if [ $pil = 2  ]
-then
+fi
+if [ $pil = 2 ]
+then                                                                 if [ $pil = 2  then
 figlet "TUNGGU"|lolcat
 echo "TUNGGU.."|lolcat
 echo "TUNGGU SEBENTAR"|lolcat
 echo "[•]BERHASIL.."|lolcat
 clear
-
-
 figlet "LOGIN"|lolcat
 echo "SILAKAN LOGIN TOOLS DULU"|lolcat
 echo "USERNAME : CYBER "|lolcat

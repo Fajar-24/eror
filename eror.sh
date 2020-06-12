@@ -1,33 +1,21 @@
 
 clear
 figlet "TOOLS"
-echo "########################################################"
-echo "KALAU ANDA BELUM INSTALL BAHAN SILAKAN INSTALL DULU ****"
-echo "KALAU ANDA SUDAH PILIH SUDAH INSTALL BAHAN **********"
-echo "#########################################################"
-echo "###################################"
-echo $i"|"$me" 1"$i" |"$cy" INSTALL BAHAN      "$i"|"$i"    |"$cy" N"$i" |"|lolcat
-echo $i"|"$me" 2"$i" |"$cy" SUDAH INSTALL BAHAN      "$i"|"$i"    |"$cy" N"$i" |"|lolcat
-echo $i"────────────────────────────────"$i"    |"$cy" L"$i" |"|lolcat
+echo "--------------------king-----------------"
+echo "KAMU HARUS INSTALL BAHAN NYA DULU"|lolcat
+echo "BY : CYBER EROR"|lolcat
+echo "--------------------king-----------------"
+echo "INSTALL BAHAN"|lolcat
 echo
-read -p"└──# " pil
-
-if [ $pil = 1 ]
-then
-pkg  upgrade && apt update
-pkg install python2
-pkg install cowsay
+read -p "YA/TDK : " read tr
+echo "[*]WAIT"
+pkg upgrade && pkg update 
 pkg install figlet
+pkg install cowsay
+pkg install python2
 pip2 install lolcat
 clear
-fi
-if [ $pil = 2 ]
-then                                                                 if [ $pil = 2  then
-figlet "TUNGGU"|lolcat
-echo "TUNGGU.."|lolcat
-echo "TUNGGU SEBENTAR"|lolcat
-echo "[•]BERHASIL.."|lolcat
-clear
+
 figlet "LOGIN"|lolcat
 echo "SILAKAN LOGIN TOOLS DULU"|lolcat
 echo "USERNAME : CYBER "|lolcat
@@ -48,6 +36,7 @@ read -p "[✓]Username && Password : " read tr
 echo "[×]BERHASIL"
 clear
 fi
+
 #!/usr/bin/sh
 # coding=utf-8
 clear
@@ -67,7 +56,7 @@ blue='\e[1;34m'
 cyan='\e[1;36m'
 red='\e[1;31m'
 clear
-figlet "Welcome"|lolcat
+cowsay -f eyes|lolcat
 echo "•×•×•×•×•×•×•×•×•×•×•×•×•×•÷•×•÷•÷•÷•×•×•"|lolcat
 echo "Author : FajarCyber"|lolcat
 echo "Kontak : 08817805411"|lolcat
